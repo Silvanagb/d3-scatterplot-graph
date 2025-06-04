@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+#container {
+  margin: 40px auto;
+  width: 1000px;
+  position: relative;
+}
+
+#scatterplot {
+  width: 1000px;
+  height: 600px;
+  background: white;
+  border: 1px solid #ccc;
+}
+
+.dot {
+  stroke: black;
+}
+
+#tooltip {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  pointer-events: none;
+  visibility: hidden;
+  font-size: 14px;
+}
+
+#legend {
+  margin-top: 20px;
+  font-weight: bold;
+}
